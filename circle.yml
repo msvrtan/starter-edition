@@ -21,7 +21,7 @@ dependencies:
     - ./etc/circleci/setup-app-config.sh
     - ./etc/circleci/setup-app-permissions.sh
   override:
-    - docker exec -it workspace php /usr/local/bin/composer.phar install
+    - docker-compose run workspace php /usr/local/bin/composer.phar install
   post:
     - ./etc/circleci/setup-app-data.sh
   cache_directories:
