@@ -276,7 +276,7 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 15px;
   line-height: 1.42857143;
-  color: #777777;
+  color: #900077;
   background-color: #ffffff;
 }
 input,
@@ -1642,7 +1642,7 @@ legend {
   margin-bottom: 21px;
   font-size: 22.5px;
   line-height: inherit;
-  color: #777777;
+  color: #900077;
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -1686,7 +1686,7 @@ output {
   padding-top: 9px;
   font-size: 15px;
   line-height: 1.42857143;
-  color: #777777;
+  color: #900077;
 }
 .form-control {
   display: block;
@@ -1695,7 +1695,7 @@ output {
   padding: 8px 12px;
   font-size: 15px;
   line-height: 1.42857143;
-  color: #777777;
+  color: #900077;
   background-color: #ffffff;
   background-image: none;
   border: 1px solid #cccccc;
@@ -3375,7 +3375,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-size: 15px;
   font-weight: normal;
   line-height: 1;
-  color: #777777;
+  color: #900077;
   text-align: center;
   background-color: #eeeeee;
   border: 1px solid #cccccc;
@@ -3508,7 +3508,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #777777;
+  color: #900077;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
@@ -4420,7 +4420,7 @@ a.thumbnail.active {
 }
 .thumbnail .caption {
   padding: 9px;
-  color: #777777;
+  color: #900077;
 }
 .alert {
   padding: 15px;
@@ -4952,7 +4952,7 @@ a.list-group-item-danger.active:focus {
   border-color: #dddddd;
 }
 .panel-default > .panel-heading {
-  color: #777777;
+  color: #900077;
   background-color: #f5f5f5;
   border-color: #dddddd;
 }
