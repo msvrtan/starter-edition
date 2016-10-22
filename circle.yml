@@ -29,9 +29,9 @@ dependencies:
     - "bin"
 test:
   override:
-    - docker exec -it workspace php ./bin/phpunit
-    - docker exec -it workspace php ./bin/phpspec run --no-interaction
-    - docker exec -it workspace php ./bin/behat --strict
+    - docker-compose run workspace php ./bin/phpunit
+    - docker-compose run workspace php ./bin/phpspec run --no-interaction
+    - docker-compose run workspace php ./bin/behat --strict
     - ant phpcs-task -emacs
     - ant phpmd-task -emacs
     - ant php-cs-fixer-check -emacs
